@@ -1,0 +1,25 @@
+RNN
+
+1.利用python的passage模块中的rnn模型实现餐馆食物评价的情感预测
+
+2.数据集：餐馆食品的评价数据（text.txt评价内容，polarity情感极性）
+	2881 好评
+	3215 差评
+
+3.python主要依赖库：passage
+
+4. 主要流程函数及功能
+（1）readData(), 读取原始数据， 存入数组
+（2）filesplit(), 划分训练集和测试集
+ (3) rnn()和predict(), 调用passage包实现rnn模型
+ (4) metric, 评价函数主要运用scikit-learn的metirc，评价指标准确率，召回率和F1
+
+5.主要参考文献
+
+Recurrent Neural Networks Tutorials 
+http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns
+https://pypi.python.org/pypi/passage/0.2.4
+https://scikit-learn.org
+<The unreasonable effectiveness of Recurrent Neural Networks>
+http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+
