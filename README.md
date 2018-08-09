@@ -25,12 +25,9 @@ s t 是第 t次的隐藏状态，由前一次的隐藏状态和此次的输入�
 o t 是第 t次的输出，如果想要预测下一个字那么在字典中存在o t =
 𝑡𝑜𝑓𝑢𝑚𝑎𝑥(𝑊𝑡 𝑡 )。
 ### 2. 数据集描述
-Sem Eval-2015 ABSA R estaurants R eview s - Test D ata - G old
-Annotations
+Sem Eval-2015 ABSA Restaurants Reviews - Test Data - Gold Annotations
 数据来源
-http://m etashare.ilsp.gr:8080/repository/dow nload/d32aeb3e9ca011e4a35
-0842b2b6a04d737ee004f7cdc428bbf1ad4bd67977d22/
-2
+http://metashare.ilsp.gr:8080/repository/download/d32aeb3e9ca011e4a350842b2b6a04d737ee004f7cdc428bbf1ad4bd67977d22/2
 整个数据集包含对餐厅服务、食品各方面的评价，这里简单抽取了对食品
 的 positvie 和 negative 的评价分析
 1095 组餐馆食物评价数据，text.txt为评价的内容，polarity.txt为情感极
